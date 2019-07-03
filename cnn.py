@@ -42,7 +42,7 @@ def train(im, label, lr=.005):
     return loss, acc
 
 print('\n--- Training the CNN ---')
-for epoch in range(5):
+for epoch in range(4):
     print('--- Epoch %d ---' % (epoch + 1))
     
     permutaion = np.random.permutation(len(train_images))
