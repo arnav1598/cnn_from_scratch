@@ -62,6 +62,7 @@ for epoch in range(4):
         l, acc = train(im, label)
         loss += l
         num_correct += acc
+    print('')
 
 print('\n--- Testing the CNN ---')
 loss = 0
